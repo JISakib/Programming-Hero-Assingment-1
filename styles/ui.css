@@ -146,6 +146,42 @@ nav li{
     margin: 0;
 }
 
+/*form part */
+.form-part{
+    display: flex;
+    padding: 130px 230px;
+    gap:100px;
+    max-width: 1140px;
+    max-height: 632px;
+}
+.form-main{
+    width: 50%;
+}
+
+.form-title{
+    font-weight: bold;
+    font-size: 65px;
+}
+
+form input[type="text"],form input[type="email"],form textarea{
+    height: 64px;
+    text-shadow: #1f1f1f;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f6f0f097;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    box-shadow: #252432;
+}
+
+label{
+    font-weight:600;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 1);
+}
+
 
 
 
